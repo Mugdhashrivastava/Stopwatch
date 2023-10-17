@@ -1,0 +1,43 @@
+body{
+    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40vh;
+    align-items: center;
+}
+
+
+#container{
+    color:aquamarine;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.digit{
+    font-size:150px;
+    font-weight: bold;
+}
+
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#buttons{
+    text-align:center;
+    margin-top: 40px;
+}
+
+.btn{
+    padding:7px 25px;
+    font-size: 15px;
+    margin:0px 10px;
+    color:plum;
+    border:0px;
+    cursor:pointer;
+}
+
